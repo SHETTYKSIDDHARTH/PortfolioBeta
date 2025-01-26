@@ -1,0 +1,17 @@
+/* Cursor Circle Styles */
+.cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white; /* Customize cursor color */
+    pointer-events: none; /* Prevent cursor interaction with the circle */
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-in-out;
+    mix-blend-mode: difference; /* Optional: Makes the circle stand out against dark/light backgrounds */
+}
+
+/* Add a scale effect on hover to the cursor */
+.cursor.active {
+    transform: translate(-50%, -50%) scale(1.5);
+}

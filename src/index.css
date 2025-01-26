@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@font-face {
+    font-family: poppins;
+    src: url(./assets/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: poppinsregular;
+    src: url(./assets/Poppins-Regular.ttf);
+}
+*{
+    font-family: poppins;
+    user-select: none;
+  
+    box-sizing: border-box;
+}
+
+body,html{
+    overflow-x: hidden;   scroll-behavior: smooth;
+    
+   
+}
+  
+
+h1{
+    font-family:poppinsregular ;
+    font-weight: 700;
+    font-size: small;
+}
+
+h3{
+    font-size: small;
+    font-family: poppinsregular;
+    font-weight: 300;
+}
+
+p{
+    font-family: poppinsregular;
+    font-weight: lighter;
+    
+}
