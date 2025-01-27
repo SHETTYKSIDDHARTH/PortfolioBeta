@@ -106,10 +106,10 @@ const HeroContent = () => {
           <p>
             <strong>Email:</strong>{" "}
             <a
-              href="mailto:shettysiddharth2k05@gmail.com"
+              href="mailto:siddharthkshetty.1si22ec099@gmail.com"
               className="text-blue-600 underline"
             >
-              shettysiddharth2k05@gmail.com
+              siddharthkshetty.1si22ec099@gmail.com
             </a>
           </p>
         </div>
