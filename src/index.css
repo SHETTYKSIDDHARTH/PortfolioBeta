@@ -7,6 +7,10 @@
     font-family: poppinsregular;
     src: url(./assets/Poppins-Regular.ttf);
 }
+@font-face {
+    font-family: anurati;
+    src: url(./assets/Anurati-Regular.otf);
+}
 *{
     font-family: poppins;
     user-select: none;
@@ -19,7 +23,23 @@ body,html{
     
    
 }
-  
+h4{
+font-family: anurati;
+/* font-size: 30px; */
+  }
+/* Style for the custom scrollbar */
+::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4298df; /* Blue color */
+    border-radius: 5px; /* Optional, for rounded edges */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Track background color */
+}
 
 h1{
     font-family:poppinsregular ;
