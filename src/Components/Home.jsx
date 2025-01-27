@@ -7,7 +7,7 @@ import Contact from './Contact';
 
 const Home = () => {
   return (
-    <div className="mt-25 w-full max-w-screen-lg min-w-screen-[90%] mx-auto h-fit lg:border md:border-2 text-black overflow-x-hidden px-4 py-2 sm:px-4 bg-white rounded-sm mb-2.5"> 
+    <div className="mt-25 w-full max-w-screen-lg min-w-screen-[90%] mx-auto h-fit  text-black overflow-x-hidden px-4 py-2 sm:px-4 bg-white rounded-sm mb-2.5"> 
       <div id="home">
         <Hero />
       </div>

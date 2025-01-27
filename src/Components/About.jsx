@@ -5,7 +5,7 @@ const About = () => {
     <section className="bg-white text-gray-800 p-4 sm:p-6 md:p-8 rounded-lg shadow-md max-w-full sm:max-w-4xl mx-auto my-10 border border-gray-300 overflow-hidden min-w-full">
       <div className="flex justify-start">
       <h2 className="text-3xl sm:text-3xl md:text-3xl font-semibold mb-4 text-center text-gray-900 inline-block border-b-2 border-blue-300 relative pl-3 group">
-  <div className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-blue-500 w-2.5 h-2.5 rounded-full group-hover:scale-110 group-hover:bg-orange-500 transition-all duration-300"></div>
+  <div className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-blue-500 w-2.5 h-2.5 rounded-full group-hover:scale-110 group-hover:bg-green-500 transition-all duration-300"></div>
   ABOUT ME
 </h2>
 

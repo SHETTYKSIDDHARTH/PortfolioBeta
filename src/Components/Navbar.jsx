@@ -95,11 +95,6 @@ const Navbar = () => {
                 />
               </a>
             ))}
-            {/* Uncomment if you want to add Resume button */}
-            {/* <a href="/resume" className="flex items-center bg-white border border-black text-black px-4 py-2 rounded-full hover:bg-blue-500 hover:text-white transition-colors duration-800">
-              <Download className="mr-2 h-4 w-4" />
-              Resume
-            </a> */}
           </div>
 
           {/* Mobile Menu Toggle */}
@@ -115,7 +110,11 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className="overflow-hidden transition-all duration-500 ease-in-out" style={{ height: `${isMenuOpen ? 'auto' : 0}` }}>
+      <div
+        className={`overflow-hidden transition-all duration-800 ease-in-out ${
+          isMenuOpen ? 'max-h-screen' : 'max-h-0'
+        }`}
+      >
         <div ref={menuRef} className="bg-white text-black">
           <div className="flex flex-col items-center py-8 space-y-8">
             {navLinks.map((link) => (
@@ -136,11 +135,6 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            {/* Uncomment if you want to add Resume button */}
-            {/* <a href="/resume" className="flex items-center justify-center text-2xl hover:text-purple-500 transition-colors duration-300 transform hover:scale-110 border-b border-gray-500 py-2">
-              <Download className="mr-4 h-6 w-6" />
-              Resume
-            </a> */}
           </div>
         </div>
       </div>
