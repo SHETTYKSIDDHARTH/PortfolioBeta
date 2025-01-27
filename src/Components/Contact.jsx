@@ -7,7 +7,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    window.location.href = `mailto:siddharthkshetty.1si22ec099@gmail.com?subject=Contact from ${name}&body=${message}`;
+    window.location.href = `mailto:siddharthkshetty.1si22ec099@gmail.com?subject=Title: ${name}&body=${message}`;
   };
 
   return (
